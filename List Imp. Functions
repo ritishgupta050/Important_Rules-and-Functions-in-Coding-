@@ -23,9 +23,7 @@ int main()
     l1.push_back(6);
     l1.push_back(5);
 
-
-
-    list<int> l2(3);
+    list<int> l2(4);
     list<int>::iterator it = l2.begin();
 
     *it = 7;
@@ -34,26 +32,34 @@ int main()
     it++;
     *it = 8;
     it++;
-
-
-    //l1.pop_back();
-    //l1.pop_front();
-    //l1.reverse();
-    //cout<<l1.remove(3);
-    //cout<<l1.front();
-    //cout<<l1.back();
-    //l1.clear();
-    //l1.unique()
-    //l1.swap(l2);
-
-    /*l1.sort();
-    l2.sort();
-    l1.merge(l2);*/
-
+    *it = 4;
+    it++;
 
     /*display(l1);
     display(l2);
+    l1.pop_back();
+    l1.pop_front();
+    l1.reverse();
+    display(l1);
+    l1.remove(3);
+    display(l1);
+    cout<<l1.front();
+    cout<<l1.back();
+    l1.clear();
+    display(l1);
+    l1.unique();
+    display(l1);*/
 
-    //l1.unique();
-    //display(l1);
+    /*l1.sort();
+    l2.sort();
+    l1.merge(l2);
+
+    display(l1);
+    display(l2);
+
+    l1.unique();
+    display(l1);*/
+  
+return 0;  
 }
+
