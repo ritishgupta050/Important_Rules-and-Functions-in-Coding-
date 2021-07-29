@@ -1,0 +1,59 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void display(list<int> &l)
+{
+    cout<<"Size of : "<<l.size()<<endl;
+
+    list<int>::iterator it;
+    for(it = l.begin();it != l.end();++it)
+    {
+        cout<<(*it)<<" ";
+    }
+    cout<<endl;
+}
+
+int main()
+{
+    list<int> l1;
+
+    l1.push_back(1);
+    l1.push_back(3);
+    l1.push_back(2);
+    l1.push_back(6);
+    l1.push_back(5);
+
+
+
+    list<int> l2(3);
+    list<int>::iterator it = l2.begin();
+
+    *it = 7;
+    it++;
+    *it = 9;
+    it++;
+    *it = 8;
+    it++;
+
+
+    //l1.pop_back();
+    //l1.pop_front();
+    //l1.reverse();
+    //cout<<l1.remove(3);
+    //cout<<l1.front();
+    //cout<<l1.back();
+    //l1.clear();
+    //l1.unique()
+    //l1.swap(l2);
+
+    /*l1.sort();
+    l2.sort();
+    l1.merge(l2);*/
+
+
+    /*display(l1);
+    display(l2);
+
+    //l1.unique();
+    //display(l1);
+}
